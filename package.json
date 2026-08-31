@@ -8,7 +8,7 @@
 		"build": "vite build",
 		"lint": "eslint",
 		"lint:fix": "eslint --fix",
-		"format": "prettier ./src/js/**/*.js --write",
+		"format": "prettier ./src/**/*.{js,scss} --write",
 		"prepare": "husky"
 	},
 	"devDependencies": {
